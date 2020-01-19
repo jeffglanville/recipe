@@ -1,0 +1,33 @@
+@import '../Assets/variables';
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+h1{
+    color: $color1;
+    font-size: 2.8rem;
+    font-family: $marker;
+    background-color: rgba(227, 236, 255, .5);
+}
+a{
+    color: $color1;
+    font-size: 1.8rem;
+}
+
+.menu{
+    height: 50px;
+    width: 50px;
+    align-self: flex-end;
+}
+
+nav{
+    display: flex;
+    width: 5%;
+    justify-content: space-evenly;
+    margin: 1%;
+    background-color: rgba(227, 236, 255, .4);
+}

@@ -12,7 +12,7 @@ function Recipe() {
         .then((res) => setCurrent(res.data.meals[0]))
     }, [id])
     return (
-        <div>
+        <div className = "cardContainer">
             {current &&
             <div>
                 <h2>{current.strMeal}</h2>

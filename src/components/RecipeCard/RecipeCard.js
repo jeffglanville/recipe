@@ -9,7 +9,7 @@ function RecipeCard(props) {
             {recipe && (
                 <div>
                     <h2>{recipe.strMeal}</h2>
-                    <img src = {recipe.strMealThumb} alt = ""/>
+                    <img src = {recipe.strMealThumb} alt = "meal"/>
                 </div>
             )}
         </div>
