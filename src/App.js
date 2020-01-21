@@ -4,7 +4,9 @@ import {Route} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Landing from './components/Landing/Landing';
 import Recipe from './components/Recipe/Recipe';
+import SearchBar from './components/SearchBar/SearchBar';
 import './App.scss';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Route exact path = "/" component = {Header}/>
+      <SearchBar />
       <Route exact path = "/">
         <Landing recipe = {recipe} />
       </Route>
